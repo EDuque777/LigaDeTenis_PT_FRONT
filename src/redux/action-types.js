@@ -1,0 +1,31 @@
+//Registro e inicio de sesion
+export const REGISTER_USER = "REGISTER_USER"
+export const LOGIN_USER = "LOGIN_USER"
+export const LOGOUT_USER = "LOGOUT_USER"
+
+
+//Visibilidad del usuario
+export const VIEW_PROFILE = "VIEW_PROFILE"
+export const VIEW_TOURNAMENT = "VIEW_TOURNAMENT"
+
+
+//Panel Administrativo
+//Usuarios
+export const ALL_USERS = "ALL_USERS"
+export const ALL_USER_PARTICIPATION = "ALL_USER_PARTICIPATION"
+export const CREATE_USER = "CREATE_USER"
+export const EDIT_USER = "EDIT_USER"
+export const DELETE_USER = "DELETE_USER"
+export const BLOCK_USER = "BLOCK_USER"
+
+//Torneos
+export const ALL_TOURNAMENTS = "ALL_TOURNAMENTS"
+export const CREATE_TOURNAMENTS = "CREATE_TOURNAMENTS"
+export const EDIT_TOURNAMENTS = "EDIT_TOURNAMENTS"
+export const DELETE_TOURNAMENTS = "DELETE_TOURNAMENTS"
+export const ALL_TOURNAMENTS_PARTICIPATION = "ALL_TOURNAMENTS_PARTICIPATION"
+
+
+//PAYPAL
+export const CREATE_ORDER_SUCCESS = "CREATE_ORDER_SUCCESS";
+export const CREATE_ORDER_FAILURE = "CREATE_ORDER_FAILURE";

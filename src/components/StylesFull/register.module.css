@@ -1,0 +1,756 @@
+.containerFull {
+    background: linear-gradient(to right, green -80%, black 80%);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    width: 400px;
+    margin-left: 480px;
+    margin-bottom: 100px;
+}
+
+.titleLogin {
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.containerEmail {
+    margin-left: 0;
+    padding-left: 40px;
+    padding-right: 55px;
+}
+
+.titleEmail {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.inputEmail {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    width: 100%;
+}
+
+.inputPassword {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    width: 100%;
+}
+
+.containerPassword {
+    display: flex;
+}
+
+.containerButton {
+    width: 100%;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.containerButton:hover {
+    background-color: blue;
+    border: 3px solid blue;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.containerSubmit {
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: 25px;
+}
+
+.submitButton {
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid white;
+    box-shadow: 3px 3px 0 blue;
+    border-radius: 5px;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.submitButton:hover {
+    background-color: blue;
+    border: 3px solid blue;
+    box-shadow: 3px 3px 0 white;
+    color: white;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.parrafoContainer {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 45px;
+}
+
+.containerSelect {
+    display: flex;
+}
+
+.dayContainer {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-right: 10px;
+}
+
+.mounthContainer {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-right: 10px;
+}
+
+.yearContainer {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.containerSelectRadio {
+    width: 100%;
+    display: flex;
+}
+
+.selectRadio {
+    width: 30px;
+}
+
+.valueRadio {
+    color: white;
+}
+
+.containerCropper {
+    height: 260px;
+    width: 200px;
+    background-color: black;
+    margin-bottom: 15px;
+    margin-left: 95px;
+    margin-top: 13px;
+}
+
+.interCropper {
+    height: 100%;
+    width: 100%;
+}
+
+.selectImage {
+    background-color: white;
+    color: black;
+    margin-left: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 78%;
+}
+
+.buttonViewImage {
+    background-color: white;
+    color: black; 
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.5s;
+    margin-left: 130px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.buttonViewImage:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.containerImageProfile {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: 95px;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+
+.fullImageProfile {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.containerLoadingImage {
+    margin-top: -130px;
+    margin-left: 80px;
+}
+
+.spinnerIcon {
+    font-size: 50px; 
+    animation: spin 1s infinite linear;
+    color: white;
+}
+  
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.buttonChangeImage {
+    background-color: white;
+    color: black; 
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.5s;
+    margin-left: 121px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.buttonChangeImage:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.buttonStyles {
+    background-color: white;
+    color: black; 
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.5s;
+    margin-left: 85px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.buttonStyles:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.buttonStylesCancel {
+    background-color: white;
+    color: black; 
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.5s;
+    margin-left: 140px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.buttonStylesCancel:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.spinnerIconTwo {
+    font-size: 50px; 
+    animation: spinTwo 1s infinite linear;
+    margin-left: 180px;
+    color: white;
+}
+  
+@keyframes spinTwo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.buttonLogut {
+    background-color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.buttonLogut:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonProfile {
+    background-color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 31px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttonProfile > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttonProfile:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonHome {
+    background-color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 62px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.buttonHome > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttonHome:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.buttonTournament {
+    background-color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 27px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.buttonTournament > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttonTournament:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonManage {
+    background-color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    padding: 10px 51px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.buttonManage:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.containerTitleProfile {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 3px 3px 0 white;
+    color: blue;
+    margin-bottom: -20px;
+    margin-top: 40px;
+}
+
+.containerTitleProfileFull {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 3px 3px 0 white;
+    color: blue;
+}
+
+.containerTextProfile {
+    font-size: 25px;
+}
+
+.containerImageProfileFull {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 135px;
+    margin-top: 50px;
+}
+
+.imagenProfileFullFull {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.containerButonTournamentFull {
+    border: 3px solid black;
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 520px;
+    width: 400px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.containerButonTournamentFull:hover {
+    border: 3px solid blue;
+    cursor: pointer;
+}
+
+.containerImageTournamentFull {
+    height: 300px;
+    width: 375px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.imagenTournamentFullFull {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.containerImageTournamentTotal{
+    height: 300px;
+    width: 480px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.imagenTournamentFullTotal {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.submitButtonDisable {
+    font-size: 20px;
+    background-color: gray;
+    border: 3px solid gray;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.containerButtonsTourUsers {
+    display: flex;
+    margin-top: 100px;
+}
+
+.buttonTourUsersUsers {
+    font-size: 30px;
+    padding: 10px 120px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buttonTourUsersUsers:hover {
+    transition: 0.5s;
+    background-color: white;
+    border: 5px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+
+.buttonTourUsersTour {
+    font-size: 30px;
+    padding: 10px 51px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buttonTourUsersTour:hover {
+    transition: 0.5s;
+    background-color: white;
+    border: 5px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+
+.containerAllUsersAdmin {
+    display: flex;
+    background: linear-gradient(to right, white -80%, grey 80%);
+    width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 1px;
+    justify-content: space-between;
+}
+
+.userDbAllFullText {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.userDbAllFullActiond {
+    display: flex;
+    padding: 15px 1px;
+}
+
+.buttonAllUsers {
+    background-color: white;
+    border: 2px solid black;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 3px;
+    transition: 0.5s;
+}
+
+.buttonAllUsers:hover {
+    transition: 0.5s;
+    border: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+
+.buttonCreatedUserFull {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.buttonCreatedUserFull:hover {
+    transition: 0.5s;
+    border: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+
+.containerFullFullEdit {
+    background: linear-gradient(to right, green -80%, black 80%);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.titleEditUserFull {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.containerEmailEditUser {
+    margin-left: 0;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.titleEmailEditUser {
+    display: flex;
+    margin-left: 67px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+    /* margin-right: 92px; */
+}
+
+.inputEmailEditUser {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    width: 84%;
+    margin-left: 65px;
+}
+
+.dayContainerEditUser {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-right: 10px;
+    margin-left: 70px;
+}
+
+.mounthContainerEditUser {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-right: 10px;
+}
+
+.yearContainerEditUser {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.containerSelectRadioEditUser {
+    width: 100%;
+    display: flex;
+}
+
+.selectRadioEditUser {
+    width: 30px;
+}
+
+.valueRadioEditUser {
+    color: white;
+}
+
+.inputPassword {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid white;
+    width: 100%;
+}
+
+.containerButtonEditUser {
+    width: 100%;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.containerButtonEditUser:hover {
+    background-color: blue;
+    border: 3px solid blue;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.containerSelectRadioUserEdit {
+    width: 35%;
+    display: flex;
+}
+
+.selectRadioUserEdit {
+    width: 20px;
+    margin-left: 70px;
+}
+
+.valueRadioUserEdir {
+    color: white;
+}
+
+.containerImageProfileTwo {
+    width: 90%;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.buttonEditUserContainerTwo {
+    margin-bottom: 50px;
+    width: 50%;
+    padding: 10px 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: blue;
+}
+
+.buttonEditUserContainerTwo:hover{
+    transition: 0.5s;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
