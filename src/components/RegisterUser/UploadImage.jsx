@@ -37,7 +37,7 @@ const UploadImage = ({ onImageUpload }) => {
               formData.append('file', blob);
               setLoading(true);
               // const response = await axios.post('http://localhost:3001/upload', formData, {
-                const response = await axios.post('https://ligadetenisptback-dev-jpef.4.us-1.fl0.io/upload', formData, {
+                const response = await axios.post('https://ligadetenisptback-dev-mjcc.4.us-1.fl0.io/upload', formData, {
                 headers: {
                   'Content-Type': 'multipart/form-data',
                 },

@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+La plataforma "Liga de Tenis" se enfoca en el FRONT END, la parte visual y la experiencia del cliente. Permite a los usuarios iniciar sesión con su correo y contraseña.
 
-## Getting Started
+La plataforma cuenta con rutas protegidas para quienes NO estén registrados. Ofrece el registro, incluyendo la opción de añadir una foto de perfil de manera opcional.
 
-First, run the development server:
+Una vez dentro, los usuarios pueden acceder a su perfil, ver sus datos de registro y explorar los torneos disponibles. Al hacer clic en un torneo, obtienen información detallada. Además, se ha integrado PayPal como método de pago al inscribirse en un torneo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+El administrador tiene acceso a las mismas funcionalidades que un usuario regular y cuenta con un sistema que detecta su ingreso, activando un botón de administrador. Desde aquí, puede ver todos los usuarios registrados o los torneos creados permitiendo asi gestionarlos a tu gusto. Hay protección de rutas para el panel administrativo, evitando el acceso no autorizado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Herramientas utilizadas:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Base de datos: PostgreSQL
+Back-end: JavaScript, Node.js, Sequelize, Nodemailer, Cloudinary, PayPal, JWT y Express
+Front-end: React, Next.js, Redux, JavaScript, SweetAlert, React Cropper y React Icons
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Credenciales de interacción:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Administrador:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Email: administrador@gmail.com
+Contraseña: 1234567897
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+PayPal:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Email: sb-knimd27417844@personal.example.com
+Contraseña: G#Ck1%qs
+
+
+Espero le guste la aplicacion!!!
